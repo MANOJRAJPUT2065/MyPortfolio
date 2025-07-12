@@ -4,7 +4,7 @@ A modern full-stack portfolio website built with **React**, **Tailwind CSS**, **
 
 ## 🔥 Live Demo
 
-Frontend: (https://stellar-portfolio.vercel.app)  
+Frontend: 
 Backend API:
 
 ---
