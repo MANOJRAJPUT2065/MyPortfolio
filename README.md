@@ -1,4 +1,5 @@
-# Stellar Portfolio - Manoj Singh 🚀
+# PORTFOLIO
+
 
 A modern full-stack portfolio website built with **React**, **Tailwind CSS**, **Node.js**, and **Express**, showcasing projects, skills, contact info, and live email functionality via **Nodemailer**.
 
