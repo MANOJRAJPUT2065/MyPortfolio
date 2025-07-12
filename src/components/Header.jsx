@@ -25,10 +25,10 @@ const Header = () => {
 
   return (
     <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-      scrolled ? 'bg-background/95 backdrop-blur-md border-b border-border shadow-lg' : 'bg-transparent'
+      scrolled ? 'bg-white/95 backdrop-blur-md border-b border-gray-200 shadow-lg' : 'bg-transparent'
     }`}>
       <div className="container mx-auto px-4 py-4 flex justify-between items-center">
-        <div className="text-2xl font-bold text-primary animate-pulse">
+        <div className="text-2xl font-bold text-blue-600 animate-pulse">
           Manoj Singh
         </div>
         
@@ -38,11 +38,11 @@ const Header = () => {
             <button 
               key={section}
               onClick={() => scrollToSection(section)} 
-              className="relative capitalize hover:text-primary transition-all duration-300 group"
+              className="relative capitalize hover:text-blue-600 transition-all duration-300 group animate-fade-in"
               style={{ animationDelay: `${index * 100}ms` }}
             >
               {section}
-              <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-primary transition-all duration-300 group-hover:w-full"></span>
+              <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-blue-600 transition-all duration-300 group-hover:w-full"></span>
             </button>
           ))}
         </nav>
@@ -78,7 +78,7 @@ const Header = () => {
       </div>
 
       {/* Mobile Navigation */}
-      <div className={`md:hidden bg-background/95 backdrop-blur-md border-t border-border transition-all duration-300 ${
+      <div className={`md:hidden bg-white/95 backdrop-blur-md border-t border-gray-200 transition-all duration-300 ${
         isMenuOpen ? 'max-h-96 opacity-100' : 'max-h-0 opacity-0 overflow-hidden'
       }`}>
         <nav className="container mx-auto px-4 py-4 space-y-4">
@@ -86,13 +86,13 @@ const Header = () => {
             <button 
               key={section}
               onClick={() => scrollToSection(section)} 
-              className="block w-full text-left capitalize hover:text-primary transition-colors duration-300 transform hover:translate-x-2"
+              className="block w-full text-left capitalize hover:text-blue-600 transition-colors duration-300 transform hover:translate-x-2"
             >
               {section}
             </button>
           ))}
           
-          <div className="flex space-x-4 pt-4 border-t border-border">
+          <div className="flex space-x-4 pt-4 border-t border-gray-200">
             {[
               { href: "https://github.com/MANOJRAJPUT2065", icon: Github },
               { href: "https://linkedin.com/in/manoj-singh", icon: Linkedin },
@@ -103,7 +103,7 @@ const Header = () => {
                 href={href} 
                 target="_blank" 
                 rel="noopener noreferrer" 
-                className="hover:text-primary transition-all duration-300 hover:scale-110"
+                className="hover:text-blue-600 transition-all duration-300 hover:scale-110"
               >
                 <Icon size={20} />
               </a>
