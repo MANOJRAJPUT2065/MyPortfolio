@@ -49,7 +49,7 @@ const Hero = () => {
                 GitHub
               </a>
               <a 
-                href="https://linkedin.com/in/manoj-singh" 
+                href="https://www.linkedin.com/in/manojrajput2065/" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="group flex items-center gap-2 bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition-all duration-300 transform hover:scale-105 hover:shadow-lg"
@@ -58,7 +58,7 @@ const Hero = () => {
                 LinkedIn
               </a>
               <a 
-                href="https://leetcode.com/manojrajput" 
+                href="https://leetcode.com/manojrajput20655" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="group flex items-center gap-2 bg-orange-600 text-white px-6 py-3 rounded-lg hover:bg-orange-700 transition-all duration-300 transform hover:scale-105 hover:shadow-lg"
